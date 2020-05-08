@@ -1,3 +1,6 @@
+# Math4B Numerical Analysis
+# Darren Chou
+# 05/08/2020
 import matplotlib.pyplot as plt
 import math
 
