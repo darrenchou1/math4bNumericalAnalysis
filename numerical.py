@@ -17,9 +17,13 @@ xPrimes = [xPrime0]
 xs = [x0]
 
 while ts[-1] < 50:
+    # Increment time
     t = ts[-1] + Dt
+    # Calculate xPrimePrime
     xPrimePrime = ((-b * xPrimes[-1]) - (c * xs[-1]))/(a)
+    # Euler's method xPrime
     xPrime = xPrimes[-1] + (xPrimePrime * Dt)
+    # Euler's method x
     x = xs[-1] + (xPrimes[-1] * Dt)
 
     ts.append(t)
